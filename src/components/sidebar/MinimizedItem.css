@@ -1,0 +1,25 @@
+.mini-title{
+    font-weight: 500;
+    font-size: 10px;
+    color: white;
+}
+
+.mini-container {
+    text-align: center;
+    width: 65px;
+    height: 73px;
+    display: grid;
+    place-items: center;
+    margin-right: 30px;
+    margin-top: -10px;
+    margin-left: -15px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+
+}
+
+
+.mini-container:hover {
+    background-color: #272727;
+}

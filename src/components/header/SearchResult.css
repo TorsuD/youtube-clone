@@ -1,0 +1,13 @@
+.sr-container {
+    background-color: #212121;
+    width: 490px;
+    border-radius: 10px;
+}
+
+.report {
+        color: grey;
+        font-style: italic;
+        font-size: 11.5px;
+        font-weight: 500;
+        padding: 10px;
+}

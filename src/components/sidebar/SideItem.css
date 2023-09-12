@@ -1,0 +1,25 @@
+.side-icon {
+    margin-right: 20px;
+}
+
+.side-title {
+    font-weight: 500;
+    font-size: 13px;
+}
+    
+    
+    .side-item-container{
+border-radius: 12px;
+color: white;
+cursor: pointer;
+    }
+
+
+.side-live {
+    margin-left: 10px;
+}
+
+.side-item-container:hover {
+    background-color: #272727;
+    transition: all 0.2s ease;
+}

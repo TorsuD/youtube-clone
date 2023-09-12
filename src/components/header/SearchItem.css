@@ -1,0 +1,15 @@
+.searchItem-title {
+    font-weight: 700;
+    color: white;
+    font-size: 15px;
+    padding-inline: 10px;
+}
+
+.searchItem-container {
+    padding-inline: 10px;
+}
+
+.searchItem-container:hover {
+background-color: #383838;
+transition: all 0.1s ease;
+}

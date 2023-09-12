@@ -1,0 +1,181 @@
+.yt-container {
+    background-color: #0e0e0e;
+    height: 100vh;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.yt-menu {
+    height: 35px;
+    width: 35px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+
+
+}
+
+.yt-menu:hover {
+    background-color: rgba(89, 89, 89, 0.9);
+    height: 35px;
+    width: 35px;
+    display: grid;
+    place-items: center;
+}
+
+
+.yt-logo {
+    height: 40px;
+    /* margin-left: 5px; */
+}
+
+.yt-search {
+    color: #787878;
+    padding: 4px;
+    border: 1px solid #232323;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.yt-search:focus-within {
+    outline: 2px solid #0e3260;
+    border-right:  2px solid #0e3260;
+}
+
+.yt-search-icon{
+    background-color: #212121;
+    display: grid;
+    place-items: center;
+    width: 60px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.yt-microphone {
+    height: 38px;
+    width: 38px;
+border-radius: 50%;
+background-color: #262626;
+display: grid;
+place-items: center;
+margin-left: 15px;
+}
+
+.yt-notification {
+    display: flex;
+    align-items: center;
+}
+
+
+.yt-vid, .yt-bell, .yt-profile {
+    margin-left: 10px;
+    height: 38px;
+    width: 38px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+
+}
+
+
+.yt-vid:hover, .yt-bell:hover{
+    margin-left: 10px;
+    background-color: #3e3e3e;
+    height: 38px;
+    width: 38px;
+    display: grid;
+    place-items: center;
+    
+}
+
+.yt-profile {
+    margin-right: 30px;
+}
+
+.yt-number {
+    background-color: #cc0100;
+    border: 2px solid black;
+    color: white;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    font-size: 12px;
+    font-weight: 700;
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    top: 15px;
+    right: 87px;
+}
+
+.yt-tooltip {
+    background-color: rgba(89, 89, 89, 0.85);
+    color: white;
+    font-size: 12px;
+    white-space: nowrap;
+    padding: 8px 5px;
+    border-radius: 3px;
+}
+
+.yt-bell-icon {
+    position: relative;
+}
+
+.yt-profile-pic {
+    height: 23px;
+}
+
+.yt-category {
+    background-color: #272727;
+    color: white;
+    padding: 7px 12px;
+    border-radius: 8px;
+    font-size: 13px;
+    margin-right: 10px;
+    cursor: pointer;
+    height: fit-content;
+}
+
+.yt-category-all {
+    background-color: #fff;
+    color: #272727;
+    padding: 7px 12px;
+    border-radius: 8px;
+    font-size: 13px;
+    margin-right: 10px;
+    cursor: pointer;
+    height: fit-content;
+
+}
+
+.yt-category:hover {
+    background-color: #3e3e3e;
+    transition: all 0.4s ease;
+}
+    
+
+input {
+    background-color: #0e0e0e;
+    border: none;
+    caret-color: white;
+}
+
+
+
+input:focus {
+    outline: none;
+}
+
+.input-input::selection {
+  background-color: white;
+  color: black; /* Change the color of the selected text if needed */
+}
+
+.input-input::-moz-selection {
+  background-color: white;
+  color: black; /* Change the color of the selected text if needed */
+}
